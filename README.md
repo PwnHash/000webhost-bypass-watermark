@@ -19,6 +19,7 @@ document.querySelectorAll('a[href*="000webhost"]').forEach(e => e.remove());
 ```
 
 **Js 2**
+
 The page gets loaded in a separate `iframe`, where I could not control the watermark usage. Hence, I added a custom script which is as below:
 
 ```javascript
